@@ -41,3 +41,10 @@ function getNames() {
 }
 const [x, y, z] = getNames();
 console.log(y, x, z);
+
+const [a, b, c, ...r] = [12, 45, 21, 65, 98];
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(r); // r provides the rest of the elements.
