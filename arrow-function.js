@@ -24,7 +24,7 @@ const add4 = function (first, second) {
 };
 
 // Arrow function syntax
-// Variable declaration = (parameter1, parameter2) => return statement.
+// Variable declaration = (parameter1, parameter2,...,parametern) => return statement.
 
 const add5 = (first, second) => first + second;
 
