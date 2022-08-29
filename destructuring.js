@@ -48,6 +48,3 @@ console.log(a);
 console.log(b);
 console.log(c);
 console.log(r); // r provides the rest of the elements.
-
-const array = { hobbies: ["dancing", "singing", "acting"] };
-console.log(JSON.stringify(array));
