@@ -35,7 +35,7 @@ console.log(item2.name);
 // Does not exist in either it's own level or a level higher
 console.log(item2.friend);
 
-// 4. Class
+// 4. Class - Syntactic Sugar
 class Person {
   name = "A";
   address = "B";
@@ -47,7 +47,7 @@ class Person {
 const person1 = new Person(16);
 console.log(person1);
 
-// 5. Function
+// 5. Constructor Function
 
 function Car(model, price) {
   this.model = model;
